@@ -1,11 +1,11 @@
 package com.TypeWriter;
 
 public interface TypeWriterListener {
-    void onTypingStart(String text);
+   public void onTypingStart(String text);
 
-    void onTypingEnd(String text);
+   public void onTypingEnd(String text);
 
-    void onCharacterTyped(String text, int position);
+   public void onCharacterTyped(String text, int position);
 
-    void onTypingRemoved(String text);
+   public void onTypingRemoved(String text);
 }
